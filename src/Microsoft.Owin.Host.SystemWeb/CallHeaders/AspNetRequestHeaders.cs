@@ -37,7 +37,7 @@ namespace Microsoft.Owin.Host.SystemWeb.CallHeaders
 
         public bool IsReadOnly
         {
-            get { return false; }
+            get { return Headers.IsReadOnly; }
         }
 
         private NameValueCollection Headers
