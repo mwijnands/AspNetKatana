@@ -39,7 +39,7 @@ namespace Microsoft.Owin.Host.SystemWeb.CallHeaders
 
         public bool IsReadOnly
         {
-            get { return false; }
+            get { return _headers.IsReadOnly; }
         }
 
         public string[] this[string key]
